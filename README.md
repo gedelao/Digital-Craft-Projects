@@ -17,7 +17,7 @@ When beginning thier journey, trainers will be asked to give their name and gend
 ```py
 os.system('clear')
 
-sys.stdout.write
+`sys.stdout.write`
 
 sys.stdout.flush
 
