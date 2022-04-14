@@ -32,10 +32,10 @@ def slow_inp(str):
      time.sleep(seconds)
   input()
 
-Gengar_health = 70
-Charizard_health = 70
-Health = 60
-Health < 60
+Gengar_health = 60
+Charizard_health = 60
+Health = 70
+Health < 70
 Attack = 90
 Speed= 100
 
@@ -128,7 +128,7 @@ while True:
     if opponent== "Charizard" and fight =="3":
       Charizard_health -= 25
       run(" Charizard lost 25 HP")
-    if fight == "2":
+    if opponent == "Charizard" and fight == "2":
       run("It's not effective on Charizard ")
       Health -= 1
     if opponent == "Charizard" and fight == "1":
@@ -137,7 +137,7 @@ while True:
     if opponent == "Gengar" and fight =="1":
       Gengar_health -=10
       run("Gengar lost 10 HP")
-    if opponent == "Gegnar" and fight =="2":
+    if opponent == "Gengar" and fight =="2":
       run("Gengar los 10 HP")
       Gengar_health -= 10
     if opponent == "Gengar" and fight =="3":
@@ -186,24 +186,3 @@ while True:
          run("Dragonite lost 50 HP")
       input("Press Enter: ")
 
-    if opponent == "Charizard":
-      run(names + " Charizard used " + Charizard)
-      if Charizard == "Fire Blast":
-         Health -= 35
-      if Charizard == "Fly":
-         Health -= 40
-      if Charizard == "Fire Punch":
-         Health -=20
-      if Charizard == "Sunny Day":
-         run("Fire's attack strengthend ")
-    if opponent == "Gengar":
-      run(names + " Gengar used "+ Gengar)
-      if Gengar == "Bite":
-         Health -=35
-      if Gengar =="Bite":
-         Health -=10
-      if Gengar =="Confusion":
-         Health -=50
-      if Gengar =="Shadow Ball":
-         Health -=50
-    input("Press Enter: ")
