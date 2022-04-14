@@ -13,9 +13,13 @@ When beginning thier journey, trainers will be asked to give their name and gend
 Additional package used:
 
 random: Random was used in order to randomize (opponents, pokemon chose and moveset)
+
 os.system('clear')
+
 sys.stdout.write
+
 sys.stdout.flush
+
 time.sleep: 
 
 
