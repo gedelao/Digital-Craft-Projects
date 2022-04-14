@@ -14,13 +14,13 @@ When beginning thier journey, trainers will be asked to give their name and gend
 
 `random`: Random was used in order to randomize (opponents, pokemon chose and moveset)
 
-```py
+
 os.system('clear')
 
-`sys.stdout.write`
+sys.stdout.write`]
 
 sys.stdout.flush
 
-time.sleep: 
-```
+`time.sleep`: 
+
 
