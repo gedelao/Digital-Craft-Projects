@@ -1,3 +1,17 @@
+print("""
+
+  _ __   ___ | | _____ _ __ ___   ___  _ __  
+ | '_ \ / _ \| |/ / _ \ '_ ` _ \ / _ \| '_ \ 
+ | |_) | (_) |   <  __/ | | | | | (_) | | | |
+ | .__/ \___/|_|\_\___|_| |_| |_|\___/|_| |_|
+ |_|                                                         
+
+
+""")
+
+
+
+
 import random ##allows for random sequence to occur
 import os
 import sys ## allows for system input and output
@@ -37,6 +51,7 @@ opponent=random.choice(opponent)
 names= random.choice(names)
 types=random.choice(types)
 
+
 pokemon_journey = input('Welcome to the world of pokemon! Would you like to be the best like no one ever was? Yes/No ')
 if pokemon_journey == "Yes":
   os.system('clear')
@@ -74,6 +89,7 @@ while True:
     ''')
   print('''
   
+
   ''')
   run("Dragonite's health is: "+ str(Health))
   run("[1] attack")
