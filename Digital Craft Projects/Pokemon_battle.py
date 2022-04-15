@@ -1,12 +1,9 @@
 print("""
-
   _ __   ___ | | _____ _ __ ___   ___  _ __  
  | '_ \ / _ \| |/ / _ \ '_ ` _ \ / _ \| '_ \ 
  | |_) | (_) |   <  __/ | | | | | (_) | | | |
  | .__/ \___/|_|\_\___|_| |_| |_|\___/|_| |_|
  |_|                                                         
-
-
 """)
 
 
@@ -51,7 +48,6 @@ opponent=random.choice(opponent)
 names= random.choice(names)
 types=random.choice(types)
 
-
 pokemon_journey = input('Welcome to the world of pokemon! Would you like to be the best like no one ever was? Yes/No ')
 if pokemon_journey == "Yes":
   os.system('clear')
@@ -89,7 +85,6 @@ while True:
     ''')
   print('''
   
-
   ''')
   run("Dragonite's health is: "+ str(Health))
   run("[1] attack")
@@ -101,20 +96,21 @@ while True:
      run("You have forfeited the battle")
      break
   if option == "2":
-    os.system('clear')
-    if option == "Charizard":
+     os.system('clear')
+  if opponent == "Charizard":
       run(names + " Charizard health is:")
       print(Charizard_health)
+      print("Health points")
       print("90 Attack")
       print("70 Speed")
       input("Press Enter")
-    if opponent == "Gengar":
+  if opponent == "Gengar":
       run(names + " Gengar health is:")
       print( Gengar_health) 
       print("Health points")
       print("55 Attack")
       print("70 Speed")
-    input("Press Enter: ")
+      input("Press Enter: ")
   if option == "1":
     os.system('clear')
     run(" [1] Dragon Claw")
@@ -147,7 +143,6 @@ while True:
       Gengar_health -= 25
       run("Gengar lost 25 HP")
     print('''
-    
     
     
     ''')
@@ -185,4 +180,3 @@ while True:
          Health -=50
          run("Dragonite lost 50 HP")
       input("Press Enter: ")
-
