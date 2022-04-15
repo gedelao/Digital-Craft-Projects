@@ -1,6 +1,6 @@
 # Pokemon Battle Simulator
 
-In a quest to be the very best like no one ever was, trainers will use Python in an attempt to beat the toughest trainers out there. With your trusty Dragonite, you will face one of many possible challengers in one vs one pokemon battle. Trainers will have 4 option from Dragonite's moveset to defeat their opponents Pokemon. First Pokemon to knock the other Pokemon health will be the winner! 
+In a quest to be the very best like no one ever was, trainers will use Python in an attempt to beat the toughest trainers out there. With your trusty Dragonite, you will face one of many possible challengers in a one vs one pokemon battle. Trainers will have 4 options from Dragonite's moveset to defeat their opponents Pokemon. First Pokemon to knock the other Pokemon health down will be the winner! 
 
 
 
