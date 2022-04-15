@@ -9,10 +9,10 @@ When beginning thier journey, trainers will be asked to give their name and gend
 
 
 ## Additional package used:
-
-`random`: Random was used in order to randomize (opponents, pokemon chose and moveset)
-`os.system`('clear'): Allowed for the screen to be cleared of text after 5 seconds.
+```py
+random: Random was used in order to randomize (opponents, pokemon chose and moveset)
+os.system('clear'): Allowed for the screen to be cleared of text after 5 seconds.
 `sys.stdout.write`: Allow us to display text without the need to move onto a new line.
 `sys.stdout.flush`: Allows for text to be read and then clearing the internal buffer. 
 `time.sleep`: : Will suspend given execution for a number of seconds.
-
+```
